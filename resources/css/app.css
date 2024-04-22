@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-xxs {
+  font-size: 12px;
+}
+@media (max-width: 900px) {
+  .media {
+    flex-wrap: wrap;
+  }
+  .media-2 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .media-3 {
+    flex-wrap: wrap;
+  }
+}
